@@ -1,0 +1,11 @@
+nav{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  background-color: red;
+  justify-items: center;
+  align-items: center;
+  color: white;
+  .logo{
+      grid-column: 2/3;
+  }
+}

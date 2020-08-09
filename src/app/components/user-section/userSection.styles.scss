@@ -1,0 +1,14 @@
+section{
+    margin: 2rem 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width:100vw;
+  
+  
+    .add-gift-button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 1rem;
+    }
+}

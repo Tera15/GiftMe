@@ -8,9 +8,13 @@ import { CustomButton } from '../custom-button/CustomButton'
 export const UserSection = () => (
     <section className="user-section">
         <ProfilePic/>
-        <div className='add-gift-button'>
+        <div className='button-section'>
+          
             <CustomButton>
-                ADD GIFT
+                FOLLOWING
+            </CustomButton>
+            <CustomButton>
+                MY GIFTS
             </CustomButton>
         </div>
     </section>

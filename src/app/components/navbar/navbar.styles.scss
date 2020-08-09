@@ -5,6 +5,9 @@ nav{
   justify-items: center;
   align-items: center;
   color: white;
+  -webkit-box-shadow: 0 10px 6px -9px #777;
+  -moz-box-shadow: 0 10px 6px -9px #777;
+       box-shadow: 0 10px 6px -9px #777;
   .logo{
       grid-column: 2/3;
   }

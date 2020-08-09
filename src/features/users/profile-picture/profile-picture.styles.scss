@@ -1,5 +1,5 @@
 .profile-pic{
-    background: red;
+    
     display: flex;
     flex-direction: column;
     height: 80%;
@@ -7,9 +7,19 @@
     padding-top: 2rem;
     margin: 0 1rem;
     align-items: center;
-    border-radius: 1rem;
-    color: white;
+    border-radius: 5px;
+    
+    color: red;
     text-transform: uppercase;
+    font-weight: 700;
+    box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 18.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 39.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 90px 80px rgba(0, 0, 0, 0.12)
+;
     & > img{
         width: 50%;
         height: auto;
